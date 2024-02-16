@@ -1,0 +1,33 @@
+{
+  "name": "@devamutyala7/react-reusable-components",
+  "version": "0.0.1",
+  "description": "Collection of modular, styled React components for seamless integration across personal projects",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deva Mutyala",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/react": "^18.2.55",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.10.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^11.1.6"
+  }
+}
