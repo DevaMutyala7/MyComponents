@@ -1,5 +1,5 @@
 {
-  "name": "@devamutyala7/react-reusable-components",
+  "name": "reusable-react-kit",
   "version": "0.0.1",
   "description": "Collection of modular, styled React components for seamless integration across personal projects",
   "main": "dist/cjs/index.js",
@@ -9,25 +9,25 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
   },
   "author": "Deva Mutyala",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.2.55",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^4.10.0",
     "rollup-plugin-dts": "^6.1.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "tslib": "^2.6.2"
   },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "dependencies": {
-    "@rollup/plugin-typescript": "^11.1.6"
   }
 }
